@@ -1,1 +1,7 @@
 <router-outlet></router-outlet>
+<div class="footer" style="height: 100px; position: absolute; bottom: 0; width: 100%;">
+    <div class="home" [routerLink]="['/home']" routerLinkActive="active">Home</div>
+    <div class="profile" [routerLink]="['/profile']" routerLinkActive="active">My Profile</div>
+    <div class="find-fields" [routerLink]="['/find']" routerLinkActive="active">Find Fields</div>
+    <div class="my-fields" [routerLink]="['/fields']" routerLinkActive="active">My Fields</div>
+</div>

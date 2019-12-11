@@ -1,0 +1,15 @@
+.page-wrapper {
+    height: calc(100% - 100px);
+    width: 90%;
+    margin: auto;
+}
+
+.page-header {
+    font-size: 36px;
+    text-align: center;
+}
+
+.home-image {
+    width: 100%;
+    
+}

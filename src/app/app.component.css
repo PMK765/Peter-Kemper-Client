@@ -1,0 +1,16 @@
+.home, .profile, .find-fields, .my-fields {
+    width: calc(25% - 2px);
+    text-align: center;
+    display: inline-block;
+    font-size: 40px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding-top: 20px;
+    cursor: pointer;
+    color: rgb(0, 62, 197);
+}
+
+.home:hover, .profile:hover, .find-fields:hover, .my-fields:hover {
+    color: rgb(0, 29, 92);
+    font-weight: 700;
+}
